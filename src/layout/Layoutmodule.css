@@ -1,0 +1,61 @@
+.header {
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://wallpapers.com/images/featured/colorful-abstract-background-rra8u4adw1ubypzl.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    z-index: 1;
+}
+
+.sidebar {
+    top: 120px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    left: 0;
+    width: 150px;
+    height: calc(100vh - 120px);
+    background-color: rgb(244, 183, 69);
+    color : #0033ff;
+    position: fixed;
+
+}
+
+.content {
+    height: 200vh;
+    padding-top: 200px;
+    margin-left: 170px;
+}
+
+.footer {
+    bottom: 0;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    font-size: 25px;
+    right: 0;
+    text-align: center;
+    background-color: rgb(68, 172, 241);
+}
+
+.product {
+    margin: 20px;
+    border: 2px groove rgb(255, 0, 81);
+    position: relative;
+}
+
+.proname {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
